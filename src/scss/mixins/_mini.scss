@@ -64,8 +64,14 @@ $browser-context: 16; // Default
   justify-content: space-between;
 }
 
-@mixin flex-column-start  {
+@mixin flex-column-start {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
