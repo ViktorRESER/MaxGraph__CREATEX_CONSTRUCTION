@@ -1,3 +1,25 @@
 .form-field{
   @include flex-column-start;
+
+  &__caption {
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-grey)
+  }
+
+  &__input {
+    border: 1px solid var(#d7dadd);
+    width: 260px;
+    height: 44px;
+    border-radius: 4px;
+    background: var(#f4f5f6);
+
+  &--big {
+    flex-grow: 1;
+  }
+  .form-field__input {
+    width: 100%;
+    height: 44px;
+  }
+}
 }

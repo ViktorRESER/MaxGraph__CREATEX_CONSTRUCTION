@@ -75,3 +75,9 @@ $browser-context: 16; // Default
   flex-direction: column;
   align-items: center;
 }
+
+
+@mixin flex-v-center {
+  display: flex;
+  align-items: center;
+}
