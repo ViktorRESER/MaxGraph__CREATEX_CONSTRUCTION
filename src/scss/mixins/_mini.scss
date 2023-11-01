@@ -81,3 +81,15 @@ $browser-context: 16; // Default
   display: flex;
   align-items: center;
 }
+
+@mixin flex-all-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-end-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
