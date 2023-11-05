@@ -60,7 +60,7 @@ $browser-context: 16; // Default
 
 @mixin flex-all-sb{
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: space-between;
 }
 

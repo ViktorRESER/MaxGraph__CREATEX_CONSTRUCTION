@@ -1,10 +1,10 @@
 .slider-nav {
+  @include flex-v-center;
   position: relative;
   z-index: 15;
 
   &__btn {
     @include flex-all-center;
-
     border-radius: 100%;
     width: 48px;
     height: 48px;
@@ -26,4 +26,9 @@
       background-color: var(--color-primary);
     }
   }
+}
+
+.slider-nav__btn.swiper-button-disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }

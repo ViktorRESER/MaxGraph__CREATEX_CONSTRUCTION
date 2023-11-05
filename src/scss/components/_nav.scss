@@ -1,6 +1,6 @@
 .nav  {
   &__list {
-    @include flex-v-center
+    @include flex-v-center;
  }
 
 &__item {

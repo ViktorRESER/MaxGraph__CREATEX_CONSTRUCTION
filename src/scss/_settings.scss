@@ -137,6 +137,12 @@ a {
   }
 }
 
+.descr {
+  &--center {
+    margin-bottom: 60px;
+  }
+}
+
 .btn {
   border-radius: 4px;
   padding: 15px 39px;
@@ -184,6 +190,7 @@ a {
   color: var(--color-storm);
 
   &--center {
+    margin-bottom: 60px;
     text-align: center;
   }
 }

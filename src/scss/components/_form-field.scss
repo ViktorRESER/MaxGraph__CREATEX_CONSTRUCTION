@@ -1,18 +1,19 @@
 .form-field{
   @include flex-column-start;
+  gap: 8px;
 
   &__caption {
     font-size: 14px;
     line-height: 150%;
-    color: var(--color-grey)
+    color: var(--color-gray);
   }
 
   &__input {
-    border: 1px solid var(#d7dadd);
+    border: 1px solid #d7dadd;
+    border-radius: 4px;
     width: 260px;
     height: 44px;
-    border-radius: 4px;
-    background: var(#f4f5f6);
+    background: #f4f5f6;
 
   &--big {
     flex-grow: 1;
