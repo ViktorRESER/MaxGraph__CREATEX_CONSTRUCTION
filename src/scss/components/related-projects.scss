@@ -1,5 +1,6 @@
-.portfolio-section {
-  padding: 120px 0;
+.related-projects {
+  padding-top: 180px;
+  padding-bottom: 100px;
   background-color: var(--color-light);
 
   &__top {
@@ -35,7 +36,7 @@
   }
 }
 
-.portfolio-item {
+.related-projects-item {
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -52,7 +53,6 @@
   }
 
   &__content {
-    @include flex-column-center;
     padding: 16px 10px;
   }
 
