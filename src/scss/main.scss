@@ -4,22 +4,34 @@
 @import "fonts";
 @import "settings";
 
+
+@import "./components/form-field";
 // подключения компонентов страницы (Большие компаненты)
 @import "./components/header";
 @import "./components/hero";
 @import "./components/about-section";
 @import "./components/mission";
 @import "./components/services-section";
-@import "./components/portfolio-siction";
+@import "./components/portfolio-section";
 @import "./components/partners";
 @import "./components/testimonials";
 @import "./components/facts";
 @import "./components/recent-news";
 @import "./components/contacts-section";
+@import "./components/footer";
+
+@import "./components/page-hero";
+@import "./components/services-content";
+@import "./components/we-offer";
+@import "./components/ho-we-do";
+@import "./components/services-benefits";
+@import "./components/related-projects";
+@import "./components/pricing";
 
 // подключения компонентов страницы (Маленькие компаненты)
 @import "./components/nav";
 @import "./components/header-contacts";
 @import "./components/video-block";
-@import "./components/form-field";
 @import "./components/slider-nav";
+@import "./components/social";
+@import "./components/breadcrumbs";
